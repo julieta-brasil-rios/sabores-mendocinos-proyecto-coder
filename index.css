@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 214, 179);
+}
+.container {
+    margin: 20px 30px;
+    background-color: rgb(248, 220, 159);
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+.cart {
+    display: flex;
+    
+}
+
+.cart-1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+}
+
+.img {
+   width: 800px;
+   border-radius: 20px;
+   box-shadow: 0 10px 10px;
+}
+.text-1 {
+    
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.cart-2 {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+
+.img2 {
+    width: 700px;
+   border-radius: 20px;
+    box-shadow: 0 10px 10px;
+}
+
+.text-2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 768px) {
+  .cart-1, .cart-2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .img-cart,
+  .img-cart2 {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .img {
+    width: 100%;
+    border-radius: 10px;
+  }
+    .img2 {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+
+  .text-1, .text-2 {
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  .banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .container {
+    margin: 10px;
+  }
+
+ .nav ul {
+    flex-wrap: wrap;           /* Que se bajen si no entran en una sola línea */
+    justify-content: center;   /* Centramos los enlaces */
+    gap: 10px;
+  }
+
+  .nav a {
+    font-size: 14px;           /* Letra un poco más chica */
+    padding: 8px;
+  }
+  }
+
+

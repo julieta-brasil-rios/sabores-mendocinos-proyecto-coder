@@ -1,0 +1,91 @@
+.quienes-somos {
+  background-color: #fff6e0;
+  padding: 80px 30px;
+  font-family: 'Segoe UI', sans-serif;
+
+  .contenedor-bloque {
+    max-width: 1400px;
+    margin: 0 auto 80px auto;
+
+    .contenido {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 60px;
+      flex-wrap: wrap;
+
+      &.reverse {
+        flex-direction: row-reverse;
+      }
+
+      .texto {
+        flex: 1;
+        min-width: 300px;
+
+        h2 {
+          font-size: 2rem;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+          color: #5e3c1c;
+        }
+
+        p {
+          font-size: 1.2rem;
+          line-height: 1.7;
+          color: #333;
+        }
+      }
+
+      .imagen {
+        flex: 1;
+        min-width: 300px;
+
+        img {
+          width: 100%;
+          height: auto;
+          border-radius: 20px;
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        }
+      }
+    }
+  }
+}
+
+header {
+  background-color: #5e5240; // un marrón sobrio y cálido
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h1 {
+    color: #fdf6e3;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        text-decoration: none;
+        color: #fdf6e3;
+        font-weight: 500;
+        padding: 6px 10px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: #8b7d66;
+        }
+      }
+    }
+  }
+}
+

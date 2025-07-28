@@ -74,10 +74,7 @@ h2 {
 
 /* HOJA DE ESTILOS DE LA PAGUINA PRINCIPAL-----------------------------------------------------------------------------------*/
 
-#cart {
-  width: 1500px;
-  
-}
+
 .quienes-somos {
   background-color: #fff5db;
   padding: 40px 20px;
@@ -109,7 +106,7 @@ h2 {
   margin-bottom: 15px;
   color: #5e3c1c;
 }
-.quienes-somos .contenedor-bloque .contenido .texto p {
+.quienes-somos .contenedor-bloque .contenido .text p {
   font-size: 1.1rem;
   line-height: 1.7;
   color: #333;
@@ -129,7 +126,7 @@ h2 {
 
 /* HOJA DE ESTILOS DE PAGINA PRODUCTOS---------------------------------------------------------------------------------------------------*/
 
-  .contenido{
+  .contenido-producto{
   margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -257,30 +254,35 @@ h2 {
 .container-blog .main-blog,
 .container-blog .sidebar,
 .container-blog div {
-  background: #dadfe2;
+  background: #6c757d;
   padding: 20px;
   border: 1px solid black;
 }
 .container-blog .titulo-blog {
   grid-column: 1/6;
-  background-color: #6c757d;
+  background-color: #121213;
   color: #fff;
 }
 .container-blog .main-blog {
   grid-column: span 3;
 }
+.main-blog h2{
+  color: black;
+}
+
 .main-blog .article {
   background: #6c757d;
   padding: 20px;
   margin-top: 8px;
-  color: #ccc;
+  color: #1d1d1d;
   font-size: 40px;
+  border: 2px solid black;
 }
 .container-blog .sidebar{
   grid-column: span 2;
   background-color: #6c757d;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
   
@@ -304,32 +306,8 @@ h2 {
 }
 /*-----------------------------------------------------------------------------------------------------------------------------------------*/
 @media (max-width: 768px) {
-  .cart-1, .cart-2 {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
 
-  .img-cart,
-  .img-cart2 {
-    width: 100%;
-    padding: 10px;
-  }
 
-  .img {
-    width: 100%;
-    border-radius: 10px;
-  }
-    .img2 {
-    width: 100%;
-    border-radius: 10px;
-  }
-  
-
-  .text-1, .text-2 {
-    padding: 10px;
-    font-size: 20px;
-  }
   .container-blog .titulo-blog {
     grid-column: 1/6;
     background: rgb(49, 48, 48);
@@ -337,6 +315,9 @@ h2 {
   }
   .container-blog .main-blog{
     grid-column: 1/-1;
+  }
+  .main-blog .article{
+    font-size: 30px;
   }
   .container-blog .sidebar{
     grid-column: 1/-1;
@@ -353,7 +334,7 @@ h2 {
     
     }
 
-      .contacto {
+    .contacto {
       display: flex;
       justify-content:space-around;
       flex-direction: row;
@@ -370,6 +351,7 @@ h2 {
     
   }
   
+
 }
 
 

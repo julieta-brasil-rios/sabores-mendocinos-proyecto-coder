@@ -3,82 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sabores mendocinos</title>
+    <title>S.M blog</title>
     <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
 <body class="body-blog">
-       <header>
-    <div class="titulo"><h1>Sabores Mendocinos</h1></div>
-    <nav class="nav">
-        <ul>
-            <a class="ancor" href="../index.html">Inicio</a>
-            <a class="ancor" href="./productos.html">Productos</a>
-            <a class="ancor" href="./colecciones.html">Colecciones</a>
-            <a class="ancor" href="./contacto.html">Contacto</a>
-            <a class="ancor" href="./blog.html">Blog</a>
-            <a class="ancor" href="">Carrito</a>
-        </ul>
-    </nav>
-    </header>
-   <section>
-    <img class="banner" src="../imagenes/banner.jpg" alt="Banner principal">
-   </section>
+<nav class="navbar navbar-expand-lg navbar-dark bg-brown">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="../index.html">
+      Sabores Mendocinos
+    </a>
 
+    <!-- Botón hamburguesa para móvil -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menuNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">INICIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="./productos.html">PRODUCTOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="./colecciones.html">COLECCIONES</a></li>
+        <li class="nav-item"><a class="nav-link" href="./blog.html">BLOG</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contacto.html">CONTACTO</a></li>
+        
+      </ul>
+    </div>
+
+  </div>
+</nav>
+   <header>
+    <img class="banner" src="../imagenes/banner.jpg" alt="Banner principal">
+   </header>
+ 
 <div class="container-blog">
 
-        <div class="titulo-blog">
-            <h1>Un poco de nosotros</h1>
+ <!-- Header Section -->
+      <header class="blog-header">
+        <div class="header-content">
+          <h1 class="blog-title">Un poco de nosotros</h1>
+          <p class="blog-subtitle">Descubre nuestras experiencias únicas en Mendoza</p>
         </div>
-        <main class="main-blog">
-            <article class="article">
-                <h2>Aventura Rural: Travesías por la Montaña</h2>
-                <p>Para quienes buscan conectar con la naturaleza, nuestras experiencias rurales son el plan ideal. Trekking, cabalgatas y aire puro mendocino, todo en un mismo lugar.</p>
-                <p> <br>Ofrecemos rutas guiadas para distintos niveles, donde podés recorrer senderos entre cerros, cruzar arroyos y contemplar paisajes únicos de la Cordillera.</p>
-                <p> <br>Ya sea caminando o a caballo, vas a vivir una jornada distinta, lejos del ruido y cerca de lo esencial. Una aventura que combina descanso, emoción y tradición.</p>
+      </header>
+      <!-- Main Content -->
+        <main class="blog-main">
+         <div class="content-wrapper">
+          
+          <!-- Articles Grid -->
+          <section class="articles-grid">
+            <article class="article-card principal">
+              <div class="article-image">
+                <img src="../imagenes/cabalgata.jpg" alt="Aventura Rural: Travesías por la Montaña" loading="lazy">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="article-content">
+                <h2 class="article-title">Aventura Rural: Travesías por la Montaña</h2>
+                <p class="article-excerpt">Para quienes buscan conectar con la naturaleza, nuestras experiencias rurales son el plan ideal. Trekking, cabalgatas y sitio puro mendocino, todo en un mismo lugar.</p>
+                <p class="article-description">
+                  <strong>Ofrecemos rutas guiadas para distintos niveles,</strong> donde podrás recorrer senderos entre cerros, atravesar arroyos y conectarte con nuestras paisajes únicos de la Cordillera.
+                </p>
+                <p class="article-description">
+                  <strong>Ya sea caminando o a caballo,</strong> vas a vivir una jornada distinta, lejos del ruido y cerca de lo esencial. Una aventura que combina descanso, emoción y tradición.
+                </p>
+              </div>
             </article>
-            <article class="article">
-                <h2>Almuerzos y Cenas en Bodega con Vistas Increíbles</h2>
-                <p>Imaginá un almuerzo entre viñedos, rodeada de montañas y copas que se llenan de sabor. Eso es lo que ofrecemos en nuestras experiencias gastronómicas en bodegas seleccionadas</p>
-                <p> <br>Podés disfrutar de almuerzos de pasos o cenas al atardecer, con platos locales maridados con los mejores vinos de la región. Todo en un entorno natural que enamora a cada visitante.</p>
-                <p> <br>La experiencia incluye traslados, atención personalizada y, por supuesto, vistas que vas a querer guardar en tu galería para siempre.</p>
-            </article>
-            <article class="article">
-                <h2>Descubrí Mendoza con Nosotros</h2>
-                <p>Mendoza no solo es tierra de vinos, también es una ciudad vibrante llena de cultura, historia y paisajes inolvidables. Nuestro servicio de turismo te invita a explorar cada rincón con experiencias auténticas.</p>
-                <p> <br>Ofrecemos recorridos por la ciudad y zonas aledañas, con guías locales que te contarán las historias que no aparecen en los mapas. Caminá entre plazas arboladas, descubrí arte urbano y sentí el ritmo mendocino.</p>
-                <p> <br>Desde city tours clásicos hasta paseos personalizados, queremos que vivas Mendoza como un local. Nos encargamos de cada detalle para que solo te ocupes de disfrutar.</p>
-            </article>
-        </main>
-        
-        <aside class="sidebar">
-            <div>
-                <img src="../imagenes/cabalgata.jpg" alt="">
-            </div>
-            <div>
-                <img src="../imagenes/almuerzo.jpg" alt="">
-            </div>
-            <div>
-                <img src="../imagenes/turismo.jpg" alt="">
-            </div>
-        </aside>
 
-        <div class="relate-post">
-            <img src="../imagenes/pexels-photo-19046646.jpg" alt="">
-        </div>
-        <div class="relate-post">
-            <img src="../imagenes/ARCHI_767189.jpg" alt="">
-        </div>
-        <div class="relate-post">
-            <img src="../imagenes/244f468d7671a9c627cbfbda11421ea5.jpg" alt="">
-        </div>
-        <div class="relate-post">
-            <img src="../imagenes/autumn-malbec-tasting-mendoza-mountain-views-bold-malbecs-andes-foothills-argentina-vistas-color-scheme-wine-purple-369262168.jpg" alt="">
-        </div>
-        <div class="relate-post">
-            <img src="../imagenes/img_9715-caja-18-vino1-a725848755eba5447a16233347758701-1024-1024.jpg" alt="">
+            <article class="article-card">
+              <div class="article-image">
+                <img src="../imagenes/almuerzo.jpg" alt="Almuerzos y Cenas en Bodega con Vistas Increíbles" loading="lazy">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="article-content">
+                <h2 class="article-title">Almuerzos y Cenas en Bodega con Vistas Increíbles</h2>
+                <p class="article-excerpt">Imagina un almuerzo entre viñedos, rodeada de montañas y copas que se llenan de sabor. Eso es lo que ofrecemos en nuestras experiencias gastronómicas en bodegas seleccionadas.</p>
+                <p class="article-description">
+                  Podes disfrutar de almuerzos de pasos o cenas al atardecer, con platos locales maridados con los mejores vinos de la región. Todo en un entorno natural que enamora a cada visitante.
+                </p>
+                <p class="article-description">
+                  La experiencia incluye traslados, atención personalizada y, por supuesto, vistas que vas a querer guardar en tu galería para siempre.
+                </p>
+              </div>
+            </article>
+
+            <article class="article-card">
+              <div class="article-image">
+                <img src="../imagenes/turismo.jpg" alt="Descubrí Mendoza con Nosotros" loading="lazy">
+                <div class="image-overlay"></div>
+              </div>
+              <div class="article-content">
+                <h2 class="article-title">Descubrí Mendoza con Nosotros</h2>
+                <p class="article-excerpt">Mendoza no solo es tierra de vinos, también es una ciudad vibrante llena de cultura, historia y paisajes inolvidables. Nuestro servicio de turismo te invita a explorar cada rincón con experiencias auténticas.</p>
+                <p class="article-description">
+                  <strong>Ofrecemos recorridos por la ciudad y zonas aledañas,</strong> con guías locales que te contarán las historias que no aparecen en los mapas. Caminá entre plazas arboladas, descubrí arte urbano y sentí el ritmo mendocino.
+                </p>
+                <p class="article-description">
+                  <strong>Desde city tours clásicos hasta paseos personalizados,</strong> queremos que vivas Mendoza como un local. Nos encargamos de cada detalle para que solo te ocupes de disfrutar.
+                </p>
+              </div>
+            </article>
+          </section>
+
+          <!-- Gallery Section -->
+          <section class="gallery-section">
+            <h3 class="gallery-title">Galería de experiencias</h3>
+            <div class="gallery-grid">
+              <div class="gallery-item">
+                <img src="../imagenes/pexels-photo-19046646.jpg" alt="Experiencia en la naturaleza" loading="lazy">
+              </div>
+              <div class="gallery-item">
+                <img src="../imagenes/ARCHI_767189.jpg" alt="Aventuras en Mendoza" loading="lazy">
+              </div>
+              <div class="gallery-item">
+                <img src="../imagenes/244f468d7671a9c627cbfbda11421ea5.jpg" alt="Experiencias gastronómicas" loading="lazy">
+              </div>
+              <div class="gallery-item">
+                <img src="../imagenes/autumn-malbec-tasting-mendoza-mountain-views-bold-malbecs-andes-foothills-argentina-vistas-color-scheme-wine-purple-369262168.jpg" alt="Vinos y paisajes" loading="lazy">
+              </div>
+              <div class="gallery-item">
+                <img src="../imagenes/img_9715-caja-18-vino1-a725848755eba5447a16233347758701-1024-1024.jpg" alt="Cata de vinos" loading="lazy">
+              </div>
+            </div>
+          </section>
+
         </div>
 
 </div>
 
+<footer>
+  <h2 class="text-contact"> Contacto y ubicacion</h2>
+  <section class="footer-form">
+  
+  <div class="contact">
+    <p><strong>Telefono:</strong> <small>112345678</small></p>
+    <p><strong>Email:</strong><small>sabores-mendocinos@gmail.com</small></p>
+    <p><strong>Horario de atencion:</strong><small>de 9hs a 18hs. lun-vie</small></p>
+    <p>copyright 2025</p>
+  </div>  
+  <div>
+    <p><strong>Navegacion</strong></p>
+    <ul>
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./productos.html">Productos</a></li>
+      <li><a href="./colecciones.html">Colecciones</a></li>
+      <li><a href="./blog.html">Blog</a></li>
+      <li><a href="./contacto.html">Contacto</a></li>
+    </ul>
+    </div>
+  </section>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

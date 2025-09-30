@@ -42,23 +42,29 @@
 
 <section class="contacto">
      
-     <div class="form">
+<div class="form">
     <h2 class="text-principal">Formulario de consulta</h2>
     <p class="p-form">Dejanos tu consulta y nos pondremos en contacto lo antes posible</p>
     <form action="" method="post">
-      <div class="div-form">
+<div class="div-form">
     <label for="nombre">Nombre</label>
-    <input type="text" name="" id="" required>
-    </div>
-    <div class="div-form">
+    <input type="text" name="nombre" id="nombre" required>
+    <small class="error"></small>
+</div>
+
+<div class="div-form">
     <label for="correo">Correo electronico</label>
     <input type="email" name="correo" id="correo">
-    </div>
-    <div class="div-form">
+    <small class="error"></small>
+  </div>
+
+<div class="div-form">
     <label for="telefono">Telefono</label>
     <input type="number" name="telefono" id="telefono">
-    </div>
-    <div class="div-form">
+    <small class="error"></small>
+</div>
+
+<div class="div-form">
     <label for="producto">Selecciona un vino:</label>
     <select name="producto" id="producto" required>
         <option class="select-product" value="">Selecciona un producto</option>
@@ -68,20 +74,26 @@
         <option value="whyski">Whyski</option>
         <option value="chocolate">Chocolates</option>
     </select>
-    </div>
-    <div class="div-form">
+    <small class="error"></small>
+</div>
+
+<div class="div-form">
     <label for="cantidad">Cantidad</label>
     <input type="number" name="cantidad" id="cantidad" min="1" required>
-    </div>
-    <div class="div-form">
+    <small class="error"></small>
+</div>
+
+<div class="div-form">
     <label for="comentario">Comentario adicional:</label>
     <textarea name="comentario" id="comentario" rows="3" placeholder="¿Alguna indicacion especial?"></textarea>
-    </div>
+</div>
 
     <button type="submit">Enviar consulta</button>
 
-   </form>
+</form>
+
 </div>
+
 </section>
 
 <footer>
@@ -106,6 +118,7 @@
     </div>
   </section>
 </footer>
+<script src="../main.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

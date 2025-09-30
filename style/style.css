@@ -107,6 +107,52 @@ h2 {
 
 /* HOJA DE ESTILOS DE PAGINA PRODUCTOS---------------------------------------------------------------------------------------------------*/
 
+#cart-sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px; /* oculto por defecto */
+  width: 300px;
+  height: 100%;
+  background: #fff;
+  border-left: 1px solid #ccc;
+  box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: right 0.3s ease;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+#cart-sidebar.open {
+  right: 0;
+  background: beige;
+  border-radius: 10px;
+}
+#close-cart {
+  border-radius: 4px;
+}
+#checkout-btn {
+  border-radius: 5px;
+  background-color: #b1bcc5;
+}
+.cart-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.cart-sidebar li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.cart-sidebar button {
+  margin-top: 10px;
+  width: 100%
+}
+
+
   .contenido-producto{
   margin-top: 30px;
   display: flex;
@@ -152,6 +198,16 @@ h2 {
 .contacto .form form .div-form select:focus,
 .contacto .form form .div-form textarea:focus {
   border-color: #6b4e31;
+}
+.error {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 2px;
+  display: block;
+}
+
+.input-error {
+  border: 1px solid red;
 }
 
 .contacto {

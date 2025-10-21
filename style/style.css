@@ -138,6 +138,9 @@ h2 {
   list-style: none;
   padding: 0;
 }
+#cart-icon {
+  padding-right: 10px;
+}
 
 .cart-sidebar li {
   display: flex;

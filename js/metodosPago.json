@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Tarjeta de crédito", "descripcion": "Visa, Mastercard o Amex" },
+  { "id": 2, "nombre": "Transferencia bancaria", "descripcion": "CBU o alias" },
+  { "id": 3, "nombre": "Pago en efectivo", "descripcion": "Contra entrega o en punto de retiro" }
+]
